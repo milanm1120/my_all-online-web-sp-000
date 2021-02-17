@@ -20,8 +20,6 @@ my_all?([1,2,3]) {|i| i < 2}  #<-- This is the argument which is passed into the
 #   end
 # end
 
-puts my_all?
-
 # The return value of all? is simply true or false.
 # If any element in the collection evaluates to false, then all? should return false.
 # If they are all true, the method should return true.
