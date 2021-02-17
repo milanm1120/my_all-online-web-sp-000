@@ -20,7 +20,7 @@ yield my_all?([1,2,3]) {|i| i < 2}  #<-- This is the argument which is passed in
 #   end
 # end
 
-puts my_all?([1,2,3])
+puts my_all?
 
 # The return value of all? is simply true or false.
 # If any element in the collection evaluates to false, then all? should return false.
