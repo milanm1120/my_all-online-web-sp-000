@@ -15,9 +15,6 @@ def my_all?(collection)
   end
 end
 
-
-puts my_all?([1,2,3])
-
 # my_all?([1,2,3]) {|i| i < 2}  #<-- This is the argument which is passed into the yield line
 #
 # def my_all?([1,2,3])      <-- This represents how the method will run
