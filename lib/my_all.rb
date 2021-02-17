@@ -11,7 +11,7 @@ end
 
 
 # my_all?([1,2,3]) {|i| i < 2}  <-- This is the argument which is passed into the yield line
-# 
+#
 # def my_all?([1,2,3])      <-- This represents how the method will run
 #   i = 0
 #   while i < 3
@@ -22,6 +22,6 @@ end
 
 puts my_all([1,2,3])
 
-# The return value of all? is simply true or false. 
-# If any element in the collection evaluates to false, then all? should return false. 
+# The return value of all? is simply true or false.
+# If any element in the collection evaluates to false, then all? should return false.
 # If they are all true, the method should return true.
