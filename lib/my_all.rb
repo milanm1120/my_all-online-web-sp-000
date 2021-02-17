@@ -10,7 +10,7 @@ def my_all?(collection)
 end
 
 
-yield my_all?([1,2,3]) {|i| i < 2}  #<-- This is the argument which is passed into the yield line
+my_all?([1,2,3]) {|i| i < 2}  #<-- This is the argument which is passed into the yield line
 #
 # def my_all?([1,2,3])      <-- This represents how the method will run
 #   i = 0
