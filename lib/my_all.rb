@@ -7,6 +7,12 @@ def my_all?(collection)
     block_return_value << yield(collection[i])    # <-- adding the return value of the block into the array
     i = i + 1                            # <-- increment the counter by 1
   end
+
+  if block_return_value.include?(false)
+    false
+  else
+    true
+  end
 end
 
 
@@ -19,8 +25,6 @@ end
 #     i = 0 + 1
 #   end
 # end
-
-puts my_all?([1,2,3])
 
 # The return value of all? is simply true or false.
 # If any element in the collection evaluates to false, then all? should return false.
